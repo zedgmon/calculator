@@ -15,7 +15,7 @@ def main():
             result = calc.calculate(num1, operator, num2)
             ui.display_result(num1, operator, num2, result)
         except ValueError as e:
-            print(f"Error: {e}")
+            print(f"Stupid error: {e}")
             
         # Ask if user wants to continue
         if not ui.continue_calculation():
